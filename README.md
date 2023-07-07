@@ -27,7 +27,7 @@ git clone https://github.com/p3nguin-kun/penguinFox-Librewolf
 
 - Go to penguinFox directory
 ```
-cd penguinFox
+cd penguinFox-Librewolf
 ```
 
 - Run the installer script
