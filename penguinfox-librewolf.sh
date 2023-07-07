@@ -46,21 +46,21 @@ if [ ! -d "$backup_folder" ]; then
 	mkdir -p "$backup_folder"
 fi
 
-for folder in chrome extensions; do
-	if [ -d "$HOME"/.librewolf/*.default-release/$folder ]; then
-		mv "$HOME"/.librewolf/*.default-release/$folder "$backup_folder"/${folder}_$date
+for folder in chrome; do
+	if [ -d "$HOME"/.librewolf/*.default-default/$folder ]; then
+		mv "$HOME"/.librewolf/*.default-default/$folder "$backup_folder"/${folder}_$date
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
 	else
-		echo "The folder $folder does not exist in $HOME/.mozilla/firefox/"
+		echo "The folder $folder does not exist in $HOME/.librewolf/"
 	fi
 done
 
 for file in user.js prefs.js; do
-	if [ -e "$HOME"/.librewolf/*.default-release/$file ]; then
-		mv "$HOME"/.mozilla/firefox/*.default-release/$file "$backup_folder"/${file}_$date
+	if [ -e "$HOME"/.librewolf/*.default-default/$file ]; then
+		mv "$HOME"/.mozilla/firefox/*.default-default/$file "$backup_folder"/${file}_$date
 		echo "$file file backed up successfully at $backup_folder/${file}_$date"
 	else
-		echo "The file $file does not exist in $HOME/.mozilla/firefox/"
+		echo "The file $file does not exist in $HOME/.librewolf/"
 	fi
 done
 
@@ -69,10 +69,9 @@ logo "Installing penguinFox..."
 printf "Copying files to respective directories..\n"
 
 for archivos in ~/penguinFox/*; do
-	cp -R "${archivos}" ~/.librewolf/*.default-release/
+	cp -R "${archivos}" ~/.librewolf/*.default-default/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-		sleep 1
 	else
 		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 		sleep 1
@@ -81,7 +80,7 @@ done
 
 # Removing unused files
 logo "Removing unused files..."
-rm -rf ~/.librewolf/*.default-release/.git ~/.librewolf/*.default-release/.github ~/.librewolf/*.default-release/penguinfox-librewolf.sh ~/.librewolf/*.default-release/README.md
+rm -rf ~/.librewolf/*.default-default/.git ~/.librewolf/*.default-default/.github ~/.librewolf/*.default-default/penguinfox-librewolf.sh ~/.librewolf/*.default-default/README.md
 
 logo "Done!"
-printf "Completed penguinFox installation, now open Firefox and enjoy!"
+printf "Completed penguinFox installation, now open Librewolf and enjoy!"
