@@ -18,7 +18,7 @@ logo() {
 
 	local text="${1:?}"
 	echo -en "                                 
-  	penguinFox Installer\n\n"
+  	penguinFox Installer (Librewolf ver.)\n\n"
 	printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}"
 }
 
