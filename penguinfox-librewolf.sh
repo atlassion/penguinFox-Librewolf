@@ -57,7 +57,7 @@ done
 
 for file in user.js prefs.js; do
 	if [ -e "$HOME"/.librewolf/*.default-default/$file ]; then
-		mv "$HOME"/.mozilla/firefox/*.default-default/$file "$backup_folder"/${file}_$date
+		mv "$HOME"/.librewolf/*.default-default/$file "$backup_folder"/${file}_$date
 		echo "$file file backed up successfully at $backup_folder/${file}_$date"
 	else
 		echo "The file $file does not exist in $HOME/.librewolf/"
