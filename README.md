@@ -3,6 +3,8 @@
 - 👩‍💻 ***Author***: [p3nguin-kun](https://github.com/p3nguin-kun)
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
+# ***Note:*** If you use Firefox, use this: [penguinFox](https://github.com/p3nguin-kun/penguinFox)
+
 ***penguinFox is Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.***
 
 ![img](https://i.imgur.com/aByMkWB.png)
