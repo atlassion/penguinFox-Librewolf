@@ -32,7 +32,7 @@ cd penguinFox-Librewolf
 
 - Run the installer script
 ```
-sh penguinfox-librewolf.sh
+sh penguinfox-installer.sh
 ```
 
 - Restart Firefox and enjoy
