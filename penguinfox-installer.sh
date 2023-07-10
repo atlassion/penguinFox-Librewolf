@@ -55,7 +55,7 @@ for folder in chrome; do
 	fi
 done
 
-for file in user.js prefs.js; do
+for file in user.js; do
 	if [ -e "$HOME"/.librewolf/*.default-default/$file ]; then
 		mv "$HOME"/.librewolf/*.default-default/$file "$backup_folder"/${file}_$date
 		echo "$file file backed up successfully at $backup_folder/${file}_$date"
