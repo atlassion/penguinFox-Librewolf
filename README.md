@@ -5,9 +5,9 @@
 
 ## **Note:** If you use Firefox, use this: [penguinFox](https://github.com/p3nguin-kun/penguinFox)
 
-**penguinFox isa Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.**
+**penguinFox is a Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.**
 
-![img](https://i.imgur.com/aByMkWB.png)
+![img](https://github.com/p3nguin-kun/penguinFox/assets/123321507/5313cb10-265e-4d91-8671-4723996fd4ee)
 
 # ***Menu***
 - [Installation](#installation)
