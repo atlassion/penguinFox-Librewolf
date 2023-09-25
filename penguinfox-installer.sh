@@ -66,7 +66,7 @@ done
 logo "Installing penguinFox..."
 printf "Copying files to respective directories..\n"
 
-for archivos in ~/penguinFox-Librewolf/*; do
+for archivos in ./*; do
 	cp -R "${archivos}" ~/.librewolf/*.default-default/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
