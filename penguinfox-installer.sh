@@ -78,7 +78,7 @@ done
 
 # Removing unused files
 logo "Removing unused files..."
-rm -rf ~/.librewolf/*.default-default/.git ~/.librewolf/*.default-default/.github ~/.librewolf/*.default-default/penguinfox-librewolf.sh ~/.librewolf/*.default-default/README.md
+rm -rf ~/.librewolf/*.default-default/.git ~/.librewolf/*.default-default/.github ~/.librewolf/*.default-default/penguinfox-installer.sh ~/.librewolf/*.default-default/README.md
 
 logo "Done!"
 printf "Completed penguinFox installation, now open Librewolf and enjoy!"
