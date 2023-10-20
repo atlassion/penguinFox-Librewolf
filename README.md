@@ -1,15 +1,12 @@
-# **penguinFox**
-
-- 👩‍💻 **Author**: [p3nguin-kun](https://github.com/p3nguin-kun)
-- 🗨️ **Discord server**: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
+<h1 align="center">penguinFox (for Librewolf)</h1>
 
 ## **Note:** If you use Firefox, use this: [penguinFox](https://github.com/p3nguin-kun/penguinFox)
 
 **penguinFox is a Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.**
 
-![img](https://github.com/p3nguin-kun/penguinFox/assets/123321507/5313cb10-265e-4d91-8671-4723996fd4ee)
+https://github.com/p3nguin-kun/penguinFox/assets/123321507/1c9a01f5-2b23-491d-a58e-0b830a40a966
 
-# ***Menu***
+# Menu
 - [Installation](#installation)
 - [How to uninstall](#how-to-uninstall)
 - [nightTab config](#nighttab-config)
@@ -18,7 +15,7 @@
 - [Support](#support)
 - [Credits](#credits)
 
-# **Installation**
+# Installation
 
 ## 1. Install automatically (Linux only)
 - Clone this repository
@@ -59,23 +56,22 @@ git clone https://github.com/p3nguin-kun/penguinFox-Librewolf
 
 - (Optional) If you want Librewolf to be smaller, go to ```Customize toolbar > Density > Compact```
 
-# **How to uninstall**
+# How to uninstall
 - Just go to your profile folder and delete ```user.js``` and ```chrome``` folder
 
-# **nightTab config**
+# nightTab config
 ![Screenshot_2023-07-15_20-47-24](https://github.com/p3nguin-kun/penguinFox/assets/123321507/f52fe4ea-ac6c-49c4-a75c-cef1c9e8b27c)
-### ***Installation***
+### Installation
 - Install [nightTab](https://github.com/zombieFox/nightTab)
 - Download my nightTab config [here](https://github.com/p3nguin-kun/penguinFox/blob/main/p3nguin-kun's%20nighttab%20config.json)
 - Choose `Settings > Data > Restore > Import from file`
 - Choose my nightTab config and apply it
 
-# **Contributions**
+# Contributions
 
 1. Fork this project.
 2. Edit files, add extensions, ...
 3. Make a pull request.
 
-# **Credits**
+# Credits
 - [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/)
-- [uBlock Origin](https://ublockorigin.com/)
