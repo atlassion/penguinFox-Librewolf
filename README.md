@@ -72,6 +72,3 @@ git clone https://github.com/p3nguin-kun/penguinFox-Librewolf
 1. Fork this project.
 2. Edit files, add extensions, ...
 3. Make a pull request.
-
-# Credits
-- [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/)
